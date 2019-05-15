@@ -11,13 +11,3 @@ const menu = document.querySelector('.menu');
 const menuButton = document.querySelector('.menu-button');
 // Using your menuButton reference, add a click handler that calls toggleMenu
 menuButton.addEventListener('click', toggleMenu)
-
-// $( "#menu-button" ).click(function() {
-//   $( "#menu" ).animate({
-//     "left": "20px",
-//   }, 1500 );
-// });
-
-$( "#menu-button" ).click(function() {
-  $( "#menu" ).animate({ "left": "+=25px" }, "slow" );
-});
